@@ -1,24 +1,36 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Main from './main';
+import Siddi from './siddi';
+import Baluchi from './baluchis';
+import Christian from './christians';
+import Shias from './shias';
+import Ahmadi from './ahmadis';
+import Sikhs from './sikhs';
+
+
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+    <Router> 
+      <Switch>
+        <Route exact path="/" component={Main} />
+        <Route path="/siddi" component={Siddi} />
+        <Route path="/baluchis" component={Baluchi} />
+        <Route path="/christians" component={Christian} />
+        <Route path="/shias" component={Shias} />
+        <Route path="/sikhs" component={Sikhs} />
+        <Route path="/ahmadis" component={Ahmadi} />
+      </Switch>
+    </Router>
     </div>
   );
 }
