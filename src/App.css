@@ -86,12 +86,14 @@ body {
 }
 
 .hovercard{
-    width: 1000px;
+    display: block;  
+    grid-template-columns: 2fr 1fr 1fr;  
+    grid-template-rows: 1fr 1fr;
     padding: 4rem 2rem;
     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
     min-height: 304px;
     background-color: #e6e6e6;
-    margin: auto;
+    margin: 0 100px;
     
     border-radius: 12px
 }
@@ -129,16 +131,9 @@ body {
   width: 300px;
 }
 
-@media only screen and (max-width: 600px) {
-  .placard-style{
-    text-align: center;
-    margin: 1rem auto;
-  }
-  
-}
-
 .button-rect{
-  text-align: center;
+    position: relative;
+    text-align: center;
     line-height: 1rem;
     padding: 1rem 3rem;
     border: 3px solid #40325a;
@@ -148,6 +143,43 @@ body {
     border-radius: 12px;
     width: 740px;
 }
+
+@media only screen and (max-width: 600px) {
+  .instruction{
+    text-align: center;
+    width: 100%;
+  }
+  .inst-style{
+    font-size: 0.75rem;
+  }
+  .section-title{
+    text-align: center;
+  }
+  .placard-style{
+    width:100%;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .section{
+    margin:0 auto;
+  }
+  .section-title{
+    font-size: 1rem;
+  }
+  .button-rect{
+    width: 240px;
+  }
+  .image-holder > img{
+    width: 100% !important;
+
+  }
+
+  .art-image-holder > img{
+    width: 100% !important;
+  }
+}
+
+
 
 .button-rect > a, .button-rect > a:hover, .button-rect > a:focus {
   text-decoration: none;
@@ -159,11 +191,18 @@ body {
   background-color: #f9f4ec;
 }
 
-.image-holder > img{
-  width: 12rem;
-  height: auto;
+.image-holder{
+  margin: 0 auto;
 }
+.image-holder > img{
+  width: 35%;
+  height:auto;
+  object-fit: cover;
+}
+
+
 .art-image-holder > img{
-  width: 20rem;
-  height: auto;
+  width: 50%;
+  height:auto;
+  object-fit: cover;
 }
