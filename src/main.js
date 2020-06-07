@@ -26,24 +26,24 @@ class Main extends React.Component {
                 the same vigor . It's time we move towards a tolerant society and it starts with educating yourself.
                 </h5>
             </div>
-            <Col lg={4}>
-              <Card style={{ width: '18rem' }}>
+            <Col md={4}>
+              <Card className="placard-style">
                 <Card.Body>
                   <Card.Title>Shi'a and Hazaras</Card.Title>
                   <Button className="info-button" variant="dark"><Link to="/shias">Information</Link></Button>{' '}
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
-              <Card style={{ width: '18rem' }}>
+            <Col md={4}>
+              <Card className="placard-style">
                 <Card.Body>
                   <Card.Title>Christians</Card.Title>
                   <Button className="info-button" variant="dark"><Link to="/christians">Information</Link></Button>{' '}
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
-              <Card style={{ width: '18rem' }}>
+            <Col md={4}>
+              <Card className="placard-style">
                 <Card.Body>
                   <Card.Title>Siddi</Card.Title>
                   <Button className="info-button" variant="dark"><Link to="/siddi">Information</Link></Button>{' '}
@@ -52,24 +52,24 @@ class Main extends React.Component {
             </Col>
           </Row>
           <Row className="spacing">
-            <Col lg={4}>
-              <Card style={{ width: '18rem' }}>
+            <Col md={4}>
+              <Card className="placard-style">
                 <Card.Body>
                   <Card.Title>Sikhs</Card.Title>
                   <Button className="info-button" variant="dark"><Link to="/sikhs">Information</Link></Button>{' '}
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
-              <Card style={{ width: '18rem' }}>
+            <Col md={4}>
+              <Card className="placard-style">
                 <Card.Body>
                   <Card.Title>Baluchis & Sindhis</Card.Title>
                   <Button className="info-button" variant="dark"><Link to="/baluchis">Information</Link></Button>{' '}
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
-              <Card style={{ width: '18rem' }}>
+            <Col md={4}>
+              <Card className="placard-style">
                 <Card.Body>
                   <Card.Title>Ahmadis</Card.Title>
                   <Button className="info-button" variant="dark"><Link to="/ahmadis">Information</Link></Button>
