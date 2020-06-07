@@ -99,9 +99,8 @@ body {
 }
 .instruction{
   padding: 0rem 1rem;
-  width:1000px;
   position: relative;
-  margin:auto;
+  margin:0 100px;
   text-align: right;
 }
 .inst-style{
@@ -145,9 +144,13 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .hovercard{
+    margin: 0px 45px 50px 45px;
+  }
   .instruction{
     text-align: center;
     width: 100%;
+    margin:0;
   }
   .inst-style{
     font-size: 0.75rem;
@@ -167,7 +170,7 @@ body {
     font-size: 1rem;
   }
   .button-rect{
-    width: 240px;
+    width: 320px;
   }
   .image-holder > img{
     width: 100% !important;
