@@ -27,12 +27,6 @@ class Christian extends React.Component {
                       </div>
                       </a>
                     </div>
-                    <div className="button-rect">
-                      <a href="https://www.sciencedirect.com/science/article/pii/S0002929717303944#bib26" rel="noopener noreferrer" target="_blank">
-                        <p style={{lineHeight:"1.5rem"}}>Topic: The Genetic Legacy of the Indian Ocean Slave Trade: Recent Admixture and Post-admixture Selection in the Makranis of Pakistan
-                        </p>
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div className="section">
