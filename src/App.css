@@ -35,7 +35,7 @@ body {
 
 .header {
   height: 25px;
-  margin-bottom:5px;
+  margin-bottom:10px;
 }
 .spacing-title{
   padding: 1.5rem;
@@ -63,7 +63,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 2px;
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
 .spacing{
