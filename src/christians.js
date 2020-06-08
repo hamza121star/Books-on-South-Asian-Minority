@@ -7,6 +7,7 @@ import AsiaProtest from './images/asia-protests.jpg'
 import PunPartition from './images/migration-pic.jpg';
 import {Link} from "react-router-dom";
 import leftArrow from './images/corner-down-left.svg';
+import Logo from './logo.svg';
 
 class Christian extends React.Component {
     render() {

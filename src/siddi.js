@@ -7,6 +7,7 @@ import Hosh from './images/HoshMuhammad.jpg'
 import SidiFest from './images/sidi-troupe.jpg';
 import leftArrow from './images/corner-down-left.svg';
 import {Link} from "react-router-dom";
+import Logo from './logo.svg';
 
 class Siddi extends React.Component {
     render() {

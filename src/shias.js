@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import {Row, Col} from 'react-bootstrap';
-import Malik from './images/malik-ambar.jpg';
-import Feroz from './images/africa-on-the-coast.jpg';
+import RelivingKarbala from './images/reliving-karbala.jpg';
+import Wolfgang from './images/pure-muslim-land.jpg';
 import Ikhlas from './images/ikhlas-khan.jpg';
 import Tanzeela from './images/tanzeela-qambrani.jpg';
 import Hosh from './images/HoshMuhammad.jpg'
@@ -22,18 +22,18 @@ class Shias extends React.Component {
               <h4 className="section-title">Books & Research Papers 📚</h4>
               <div>
                 <div className="button-rect">
-                <a href="https://global.oup.com/academic/product/malik-ambar-9780190269784" rel="noopener noreferrer" target="_blank">
-                  <p>Malik Ambar: Power and Slavery across the Indian Ocean, Author: Omar H. Ali</p>
+                <a href="https://www.amazon.com/Syed-Akbar-Hyder/dp/0195373022" rel="noopener noreferrer" target="_blank">
+                  <p>Reliving Karbala - Martyrdom in South Asian Memory | Author: Syed Akbar Hyder</p>
                   <div className="image-holder">
-                    <img src={Malik} />
+                    <img src={RelivingKarbala} />
                   </div>
                   </a>
                 </div>
                 <div className="button-rect">
-                <a href="https://dh.howard.edu/cgi/viewcontent.cgi?article=1515&context=newdirections" rel="noopener noreferrer" target="_blank">
-                  <p>Africa on the Coast of Pakistan, Author: Feroz Ahmed</p>
+                <a href="https://www.amazon.com/Pure-Muslim-Land-Pakistan-Civilization/dp/1469649799" rel="noopener noreferrer" target="_blank">
+                  <p>In a Pure Muslim Land: Shi’ism between Pakistan and the Middle East | Author: Simon Wolfgang Fuchs</p>
                   <div className="image-holder">
-                    <img src={Feroz} />
+                    <img src={Wolfgang} />
                   </div>
                   </a>
                 </div>
