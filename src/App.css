@@ -178,7 +178,7 @@ body {
     width: 740px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen  and (max-width: 720px) {
   .hovercard{
     margin: 0px 45px 50px 45px;
   }
@@ -205,10 +205,12 @@ body {
     font-size: 1rem;
   }
   .button-rect{
-    width: 320px;
+    width: 90%;
+    padding: 1rem 1.5rem;
+    display: flex;
   }
   .image-holder > img{
-    width: 100% !important;
+    width: 80% !important;
   }
   .backArrow{
     width: 65px;
@@ -234,7 +236,7 @@ body {
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
   .button-rect > a > p{
     font-size:0.85rem;
   }
