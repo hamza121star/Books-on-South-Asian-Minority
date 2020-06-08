@@ -3,7 +3,7 @@ import RelivingKarbala from './images/reliving-karbala.jpg';
 import Wolfgang from './images/pure-muslim-land.jpg';
 import ValiNasr from './images/Shia-Revival.jpg';
 import NisarHaveli from './images/nisar-haveli.jpg';
-import Hosh from './images/HoshMuhammad.jpg'
+import HazaraRights from './images/hazara-rights.jpg'
 import SidiFest from './images/sidi-troupe.jpg';
 import {Link} from "react-router-dom";
 import leftArrow from './images/corner-down-left.svg';
@@ -66,32 +66,15 @@ class Shias extends React.Component {
                   </a>
                 </div>
                 <div className="button-rect">
-                  <a href="https://historypak.com/hazara-culture/" rel="noopener noreferrer" target="_blank">
-                  <p>Hazara Culture</p>
+                  <a href="https://nchr.gov.pk/wp-content/uploads/2019/01/HAZARA-REPORT.pdf" rel="noopener noreferrer" target="_blank">
+                  <p>Understanding the agonies of the ethnic Hazaras</p>
                   <div className="art-image-holder">
-                    <img src={ValiNasr} />
+                    <img src={HazaraRights} />
                   </div>
-                  <div style={{marginTop:"10px"}}><sup>Photo owned by The Met Museum</sup></div>
+                  <div style={{marginTop:"10px"}}><sup>Photo owned by Human Rights Pakistan</sup></div>
                   </a>
                 </div>
-                <div className="button-rect">
-                  <a href="http://www.theasian.asia/archives/86486" rel="noopener noreferrer" target="_blank">
-                    <p>Topic: African presence in Sindh</p>
-                    <div className="art-image-holder">
-                      <img src={Hosh} />
-                    </div>
-                    <div style={{marginTop:"10px"}}><sup>Photo owned by The AsiaN</sup></div>
-                  </a>
-                </div>
-                <div className="button-rect">
-                  <a href="https://thediplomat.com/2018/09/meet-the-first-african-pakistani-lawmaker/" rel="noopener noreferrer" target="_blank" >
-                    <p>Topic: Tanzeela Qambrani’s election as MP</p>
-                    <div className="art-image-holder">
-                      <img src={ValiNasr} />
-                    </div>
-                    <div style={{marginTop:"10px"}}><sup>Photo owned by Dawn News</sup></div>
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>
