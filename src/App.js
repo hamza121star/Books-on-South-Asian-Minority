@@ -8,7 +8,7 @@ import Christian from './christians';
 import Shias from './shias';
 import Ahmadi from './ahmadis';
 import Sikhs from './sikhs';
-
+import Logo from './logo.svg';
 
 
 import {

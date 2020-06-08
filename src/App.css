@@ -35,6 +35,7 @@ body {
 
 .header {
   height: 25px;
+  margin-bottom:5px;
 }
 .spacing-title{
   padding: 1.5rem;
@@ -55,6 +56,14 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.logo-area{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2px;
+  transform: scale(1.2);
 }
 
 .spacing{
@@ -83,6 +92,7 @@ body {
 
 .wrapper{
   margin-top: 80px;
+  position: relative;
 }
 
 .hovercard{
@@ -94,7 +104,6 @@ body {
     min-height: 304px;
     background-color: #e6e6e6;
     margin: 0 100px;
-    
     border-radius: 12px
 }
 .instruction{
@@ -107,6 +116,32 @@ body {
   color:white;
   margin-bottom: 0.45rem;
   font-size: 0.85rem;
+}
+
+.backArrow{
+  width: 120px;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 5px 15px;
+  border-radius: 4px;
+  background-color:#903587;
+  color:white;
+  transition: 0.3s;
+  position: fixed;
+  right: 115px;
+  bottom: 45px;
+}
+
+.backArrow > a, .backArrow > a:hover{
+  text-decoration: none;
+  color:white;
+}
+.backArrow:hover{
+  background:#80529e;
+}
+.backArrow > img{
+  width: 1rem;
+  fill:white;
 }
 
 .info-button{
@@ -174,9 +209,25 @@ body {
   }
   .image-holder > img{
     width: 100% !important;
-
+  }
+  .backArrow{
+    width: 65px;
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #903587;
+    position: fixed;
+    right: 20px;
+    bottom: 45px
+  }
+  .back-text{
+    display: none;
   }
 
+  .logo-area{
+    position: relative;
+    text-align: center;
+  }
   .art-image-holder > img{
     width: 100% !important;
   }

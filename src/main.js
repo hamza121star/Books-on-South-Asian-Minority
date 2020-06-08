@@ -4,14 +4,16 @@ import Button from 'react-bootstrap/Button';
 import {Row, Col} from 'react-bootstrap';
 import {Container} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import Logo from './logo.svg';
 
 class Main extends React.Component {
     render() {
       return (
         <div className="main-page">   
-          <header className="header spacing-title">
-
-              <h3 className="hashtag-title">#SpeakUpForPakMinorities</h3>
+          <header className="header spacing-title"> 
+            <div className="logo-area">
+              <img src={Logo} />
+            </div>
           </header>
           <Container className="spacing"> 
           <Row className="spacing">

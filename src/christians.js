@@ -5,15 +5,21 @@ import PunjabiExodus from './images/Punjab-exodus.jpg';
 import Tanzeela from './images/tanzeela-qambrani.jpg';
 import AsiaProtest from './images/asia-protests.jpg'
 import PunPartition from './images/migration-pic.jpg';
+import {Link} from "react-router-dom";
+import leftArrow from './images/corner-down-left.svg';
 
 class Christian extends React.Component {
     render() {
       return (
-          <div>
-            <div className="wrapper">
-              <div className="instruction">
-              <p className="inst-style">Instruction: Hover and click on the cards below to access the resources 👇🏻
-              </p>
+        <div>
+          <div className="wrapper">
+            <div className="backArrow">
+              <Link to="/">
+                <img src={leftArrow} /> <span className="back-text">Go Back</span> 
+              </Link>
+            </div>
+            <div className="instruction">
+            <p className="inst-style">Instruction: Hover and click on the cards below to access the resources 👇🏻</p>
              </div>
               <div className="hovercard">
                 <div className="section">

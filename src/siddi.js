@@ -5,12 +5,18 @@ import Ikhlas from './images/ikhlas-khan.jpg';
 import Tanzeela from './images/tanzeela-qambrani.jpg';
 import Hosh from './images/HoshMuhammad.jpg'
 import SidiFest from './images/sidi-troupe.jpg';
+import leftArrow from './images/corner-down-left.svg';
+import {Link} from "react-router-dom";
 
 class Siddi extends React.Component {
     render() {
       return (
           <div>
             <div className="wrapper">
+              <div className="backArrow"> <Link to="/">
+              <img src={leftArrow} /> <span className="back-text">Go Back</span> 
+              </Link>
+              </div>
               <div className="instruction">
               <p className="inst-style">Instruction: Hover and click on the cards below to access the resources 👇🏻
               </p>
