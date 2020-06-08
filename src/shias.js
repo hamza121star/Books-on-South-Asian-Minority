@@ -1,18 +1,23 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import {Row, Col} from 'react-bootstrap';
 import RelivingKarbala from './images/reliving-karbala.jpg';
 import Wolfgang from './images/pure-muslim-land.jpg';
-import Ikhlas from './images/ikhlas-khan.jpg';
-import Tanzeela from './images/tanzeela-qambrani.jpg';
+import ValiNasr from './images/Shia-Revival.jpg';
+import NisarHaveli from './images/nisar-haveli.jpg';
 import Hosh from './images/HoshMuhammad.jpg'
 import SidiFest from './images/sidi-troupe.jpg';
+import {Link} from "react-router-dom";
+import leftArrow from './images/corner-down-left.svg';
+
 
 class Shias extends React.Component {
     render() {
       return (
         <div>
         <div className="wrapper">
+          <div className="backArrow"> <Link to="/">
+            <img src={leftArrow} /> <span className="back-text">Go Back</span> 
+            </Link>
+          </div>
           <div className="instruction">
           <p className="inst-style">Instruction: Hover and click on the cards below to access the resources 👇🏻
           </p>
@@ -38,9 +43,12 @@ class Shias extends React.Component {
                   </a>
                 </div>
                 <div className="button-rect">
-                  <a href="https://www.sciencedirect.com/science/article/pii/S0002929717303944#bib26" rel="noopener noreferrer" target="_blank">
-                    <p style={{lineHeight:"1.5rem"}}>Topic: The Genetic Legacy of the Indian Ocean Slave Trade: Recent Admixture and Post-admixture Selection in the Makranis of Pakistan
+                  <a href="https://www.readings.com.pk/pages/BookDetails.aspx?BookID=291128" rel="noopener noreferrer" target="_blank">
+                    <p style={{lineHeight:"1.5rem"}}>The Shia Revival: How Conflicts Within Islam Will Shape The Future | Author: Vali Nasr
                     </p>
+                    <div className="image-holder">
+                    <img src={ValiNasr} />
+                  </div>
                   </a>
                 </div>
               </div>
@@ -49,21 +57,19 @@ class Shias extends React.Component {
               <h4 className="section-title">Articles 📰</h4>
               <div>
                 <div className="button-rect">
-                <a href="https://qz.com/india/440978/meet-the-fast-disappearing-community-of-indians-and-pakistanis-of-african-origin/" rel="noopener noreferrer" target="_blank">
-                  <p>Topic: Meet the fast disappearing community of Indians and Pakistanis of African 
-                    origin
-                  </p>
+                <a href="https://www.dawn.com/news/1504593" rel="noopener noreferrer" target="_blank">
+                  <p>How to be a Shia in Pakistan</p>
                   <div className="art-image-holder">
-                    <img src={SidiFest} />
+                    <img src={NisarHaveli} />
                   </div>
-                  <div style={{marginTop:"10px"}}><sup>Photo owned by Quartz India</sup></div>
+                  <div style={{marginTop:"10px"}}><sup>Photo owned by Dawn</sup></div>
                   </a>
                 </div>
                 <div className="button-rect">
-                  <a href="https://madrascourier.com/biography/ikhlas-khanthe-abyssinian-who-ruled-the-deccan/" rel="noopener noreferrer" target="_blank">
-                  <p>Topic: Ikhlas Khan - The Abyssinian who ruled the Deccan</p>
+                  <a href="https://historypak.com/hazara-culture/" rel="noopener noreferrer" target="_blank">
+                  <p>Hazara Culture</p>
                   <div className="art-image-holder">
-                    <img src={Ikhlas} />
+                    <img src={ValiNasr} />
                   </div>
                   <div style={{marginTop:"10px"}}><sup>Photo owned by The Met Museum</sup></div>
                   </a>
@@ -81,7 +87,7 @@ class Shias extends React.Component {
                   <a href="https://thediplomat.com/2018/09/meet-the-first-african-pakistani-lawmaker/" rel="noopener noreferrer" target="_blank" >
                     <p>Topic: Tanzeela Qambrani’s election as MP</p>
                     <div className="art-image-holder">
-                      <img src={Tanzeela} />
+                      <img src={ValiNasr} />
                     </div>
                     <div style={{marginTop:"10px"}}><sup>Photo owned by Dawn News</sup></div>
                   </a>

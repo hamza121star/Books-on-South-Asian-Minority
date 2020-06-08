@@ -234,6 +234,67 @@ body {
 }
 
 
+@media only screen and (max-width: 360px) {
+  .button-rect > a > p{
+    font-size:0.85rem;
+  }
+  .hovercard{
+    margin: 0px 20px 50px 20px;
+  }
+  .instruction{
+    text-align: center;
+    width: 100%;
+    margin:0;
+  }
+  .inst-style{
+    font-size: 0.75rem;
+  }
+  .section-title{
+    text-align: center;
+  }
+  .placard-style{
+    width:100%;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .section{
+    margin:0 auto;
+  }
+  .section-title{
+    font-size: 1rem;
+  }
+  .button-rect{
+    width: 220px;
+    padding: 1rem 1.5rem;
+  }
+  .image-holder > img{
+    width: 100% !important;
+  }
+  .backArrow{
+    width: 45px;
+    font-size: 0.8rem;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: #903587;
+    position: fixed;
+    right: 10px;
+    bottom: 45px;
+  }
+  .back-text{
+    display: none;
+  }
+
+  .logo-area{
+    position: relative;
+    text-align: center;
+  }
+  .art-image-holder > img{
+    width: 100% !important;
+  }
+}
+
+
+
 
 .button-rect > a, .button-rect > a:hover, .button-rect > a:focus {
   text-decoration: none;
