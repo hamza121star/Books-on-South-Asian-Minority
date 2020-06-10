@@ -18,7 +18,7 @@ class Main extends React.Component {
           </header>
           <Container className="spacing"> 
           <Row className="spacing">
-            <div className="mainTitle spacing">
+            <div className="mainTitle">
                 <h1 className="titleStyle">South Asian Minority Knowledge Base</h1>
             </div>
             <div className="motto spacing">
@@ -29,55 +29,119 @@ class Main extends React.Component {
                 the same vigor . It's time we move towards a tolerant society and it starts with educating yourself.
                 </h5>
             </div>
-            <Col md={4}>
-              <Card className="placard-style">
-                <Card.Body>
-                  <Card.Title>Shi'a and Hazaras</Card.Title>
-                  <Button className="info-button" variant="dark"><Link to="/shias">Information</Link></Button>{' '}
-                </Card.Body>
-              </Card>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#StopShiaKillings</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/shias">
+                  <Card.Body>
+                    <h5 className="cardName">Shi'as</h5>
+                  </Card.Body>
+                  </Link>
+                </Card>
+              </div>
             </Col>
-            <Col md={4}>
-              <Card className="placard-style">
-                <Card.Body>
-                  <Card.Title>Christians</Card.Title>
-                  <Button className="info-button" variant="dark"><Link to="/christians">Information</Link></Button>{' '}
-                </Card.Body>
-              </Card>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#StopForcedConversions</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/christians">
+                    <Card.Body className="cardBody">
+                      <h5 className="cardName">Christians</h5>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </div>
             </Col>
-            <Col md={4}>
-              <Card className="placard-style">
-                <Card.Body>
-                  <Card.Title>Siddi</Card.Title>
-                  <Button className="info-button" variant="dark"><Link to="/siddi">Information</Link></Button>{' '}
-                </Card.Body>
-              </Card>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#Siddi</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/siddi">
+                  <Card.Body className="cardBody">
+                    <h5 className="cardName">Siddi</h5>
+                  </Card.Body>
+                  </Link>
+                </Card>
+              </div>
+            </Col>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#StopForcedConversions</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/ahmadis">
+                    <Card.Body className="cardBody">
+                      <h5 className="cardName">Hindus</h5>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </div>
             </Col>
           </Row>
           <Row className="spacing">
-            <Col md={4}>
-              <Card className="placard-style">
-                <Card.Body>
-                  <Card.Title>Sikhs</Card.Title>
-                  <Button className="info-button" variant="dark"><Link to="/sikhs">Information</Link></Button>{' '}
-                </Card.Body>
-              </Card>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#Sikhs</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/sikhs">
+                    <Card.Body className="cardBody">
+                      <h5 className="cardName">Sikhs</h5>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </div>
             </Col>
-            <Col md={4}>
-              <Card className="placard-style">
-                <Card.Body>
-                  <Card.Title>Baluchis & Sindhis</Card.Title>
-                  <Button className="info-button" variant="dark"><Link to="/baluchis">Information</Link></Button>{' '}
-                </Card.Body>
-              </Card>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#Baluchis</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/baluchis">
+                    <Card.Body className="cardBody">
+                      <h5 className="cardName">Baluchis</h5>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </div>
             </Col>
-            <Col md={4}>
-              <Card className="placard-style">
-                <Card.Body>
-                  <Card.Title>Ahmadis</Card.Title>
-                  <Button className="info-button" variant="dark"><Link to="/ahmadis">Information</Link></Button>
-                </Card.Body>
-              </Card>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#AhmadisAreHumansToo</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/ahmadis">
+                    <Card.Body className="cardBody">
+                      <h5 className="cardName">Ahmadis</h5>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </div>
+            </Col>
+            <Col md={3}>
+              <div className="card-wrapper">
+                <div className="hashtag-holder">
+                  <p className="hash-style">#Sindhis</p>
+                </div>
+                <Card className="placard-style">
+                  <Link to="/ahmadis">
+                    <Card.Body className="cardBody">
+                      <h5 className="cardName">Sindhis</h5>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </div>
             </Col>
           </Row>
 

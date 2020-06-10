@@ -67,20 +67,20 @@ body {
 }
 
 .spacing{
-  padding:1.15rem 1.5rem;
+  padding:1.35rem 1.35rem;
 }
 
 .mainTitle{
   margin: auto;
-  width: 550px;
-  padding: 25px 10px;
-  border: 1px solid white;
 }
 
 .titleStyle{
-  font-size: 1.25rem;
+    font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 0.22rem;
+    line-height: 2rem;
+    border: 1px solid white;
+    padding:1.35rem 1.35rem;
     color: white;
 }
 .mottoStyle{
@@ -95,6 +95,20 @@ body {
   position: relative;
 }
 
+.card-wrapper{
+  position: relative;
+}
+
+.hashtag-holder{
+  width:300px;
+  position: relative;
+  text-align: left;
+}
+.hash-style{
+  color:rosybrown;
+  margin-bottom: 0.45rem;
+  font-size: 0.75rem;
+}
 .hovercard{
     display: block;  
     grid-template-columns: 2fr 1fr 1fr;  
@@ -144,25 +158,24 @@ body {
   fill:white;
 }
 
-.info-button{
-  width: 85%;
-}
-.info-button > a{
-  color:white;
-}
-
-.info-button > a:hover, .info-button > a:focus{
-  text-decoration: none;
-  color: white;
-}
-
 .section-title{
     color: #3a1c4a !important;
     font-weight: 700;
     letter-spacing: 1.05px;
 }
-.placard-style{
-  width: 300px;
+.placard-style > a{
+  color:black;
+  transition: 0.3s;
+}
+
+h5.cardName{
+  margin: 0;
+  font-size: 1.05rem;
+}
+.placard-style > a:hover, .placard-style > a:focus{
+  text-decoration: none;
+  color: black;
+  background-color: linen;
 }
 
 .button-rect{
@@ -196,7 +209,15 @@ body {
   .placard-style{
     width:100%;
     text-align: center;
-    margin: 1rem auto;
+    margin: 0.85rem auto;
+  }
+  h5.cardName{
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  .hashtag-holder{
+    text-align: center;
+    width: 0;
   }
   .section{
     margin:0 auto;
@@ -233,6 +254,11 @@ body {
   .art-image-holder > img{
     width: 100% !important;
   }
+  .titleStyle{
+    font-size: 1.25rem;
+    padding: 1.35rem 1.15rem;
+    margin: 0rem 1.35rem;
+  }
 }
 
 
@@ -251,13 +277,21 @@ body {
   .inst-style{
     font-size: 0.75rem;
   }
+  .hashtag-holder{
+    text-align: center;
+    width: 0;
+  }
   .section-title{
     text-align: center;
   }
   .placard-style{
     width:100%;
     text-align: center;
-    margin: 1rem auto;
+    margin: 0.85rem auto;
+  }
+
+  .placard-style:hover, .placard-style:focus{
+    background-color: red !important;
   }
   .section{
     margin:0 auto;
