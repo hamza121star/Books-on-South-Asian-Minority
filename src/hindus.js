@@ -1,17 +1,17 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap';
-import Malik from './images/malik-ambar.jpg';
-import Feroz from './images/africa-on-the-coast.jpg';
+import Arundhati from './images/god-of-small-things.jpg';
+import Shiva from './images/in-search-shiva.jpg';
+import Shashi from './images/shashi-tharoor-book.jpg';
 import Ikhlas from './images/ikhlas-khan.jpg';
 import Tanzeela from './images/tanzeela-qambrani.jpg';
 import Hosh from './images/HoshMuhammad.jpg'
 import SidiFest from './images/sidi-troupe.jpg';
 import leftArrow from './images/corner-down-left.svg';
-import IndianMusicians from './images/afro-indian-musicians.jpg'
 import {Link} from "react-router-dom";
+import Logo from './logo.svg';
 
-
-class Siddi extends React.Component {
+class Hindus extends React.Component {
     render() {
       return (
           <div>
@@ -28,39 +28,36 @@ class Siddi extends React.Component {
                 <div className="section">
                   <h4 className="section-title">Books & Research Papers 📚</h4>
                   <div>
-                    <Row className="card-spacing">
-                      <Col md={6}>
-                        <div className="book-rect">
-                        <a href="https://global.oup.com/academic/product/malik-ambar-9780190269784" rel="noopener noreferrer" target="_blank">
-                          <p className="book-title">Malik Ambar: Power and Slavery across the Indian Ocean, Author: Omar H. Ali</p>
-                          <div className="image-holder">
-                            <img src={Malik} />
-                          </div>
-                          </a>
+                  <Row className="card-spacing">
+                    <Col md={6}>
+                      <div className="book-rect">
+                      <a href="https://www.readings.com.pk/pages/BookDetails.aspx?BookID=940654" rel="noopener noreferrer" target="_blank">
+                        <p className="book-title">The God of Small Things, Author: Arundhathi Roy</p>
+                        <div className="image-holder">
+                          <img src={Arundhati} />
                         </div>
-                      </Col>
+                        </a>
+                      </div>
+                    </Col>
                       <Col md={6}>
                         <div className="book-rect">
-                        <a href="https://dh.howard.edu/cgi/viewcontent.cgi?article=1515&context=newdirections" rel="noopener noreferrer" target="_blank">
-                          <p className="book-title">Africa on the Coast of Pakistan, Author: Feroz Ahmed</p>
-                          <div className="image-holder">
-                            <img src={Feroz} />
-                          </div>
-                          </a>
-                        </div>
-                      </Col>
-                      <Col md={6}>
-                        <div className="book-rect">
-                          <a href="https://www.sciencedirect.com/science/article/pii/S0002929717303944#bib26" rel="noopener noreferrer" target="_blank">
-                            <p className="book-title">Topic: The Genetic Legacy of the Indian Ocean Slave Trade - Recent Admixture and Post-admixture Selection in the Makranis of Pakistan
-                            </p>
+                          <a href="http://libertybooks.info/In-Search-of-Shiva:-A-Study-of-Folk-Religious-Practices-in-Pakistan-27457" rel="noopener noreferrer" target="_blank">
+                            <p className="book-title">In Search of Shiva: A Study of Folk Religious Practices in Pakistan | Author: Haroon Khalid</p>
                             <div className="image-holder">
-                              <img src={IndianMusicians} />
-                              <div style={{marginTop:"10px"}}><sup>Photo owned by The New York Public Library</sup></div>
+                              <img src={Shiva} />
                             </div>
-                            
                           </a>
                         </div>
+                      </Col>
+                      <Col md={6}>
+                      <div className="book-rect">
+                        <a href="http://libertybooks.info/Why-I-Am-a-Hindu-44231?search=shashi%20tharoor&category_id=0" rel="noopener noreferrer" target="_blank">
+                          <p className="book-title">Why I am a hindu | Author: Shashi Tharoor </p>
+                          <div className="image-holder">
+                              <img src={Shashi} />
+                          </div>
+                        </a>
+                      </div>
                       </Col>
                     </Row>
                   </div>
@@ -69,8 +66,8 @@ class Siddi extends React.Component {
                   <h4 className="section-title">Articles 📰</h4>
                   <div>
                   <div className="button-rect">
-                      <a href="https://madrascourier.com/biography/ikhlas-khanthe-abyssinian-who-ruled-the-deccan/" rel="noopener noreferrer" target="_blank">
-                      <p>Ikhlas Khan - The Abyssinian who ruled the Deccan</p>
+                      <a href="https://www.timesnownews.com/spiritual/religion/article/hinglaj-mata-mandir-do-you-know-about-this-shakti-peetha-in-pakistan/468324" rel="noopener noreferrer" target="_blank">
+                      <p>Do you know about this Shakti Peetha in Pakistan?</p>
                       <div className="art-image-holder">
                         <img src={Ikhlas} />
                       </div>
@@ -115,4 +112,4 @@ class Siddi extends React.Component {
     }
 }
 
-export default Siddi;
+export default Hindus;

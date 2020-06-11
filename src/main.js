@@ -68,7 +68,7 @@ class Main extends React.Component {
             <Col md={3}>
               <div className="card-wrapper">
                 <div className="placard-style">
-                  <Link to="/ahmadis">
+                  <Link to="/hindus">
                     <div className="cardBody">
                       <h5 className="cardName">Hindus</h5>
                       <p className="hash-style">#StopForcedConversions</p>
@@ -131,7 +131,7 @@ class Main extends React.Component {
           </Container>
           <footer>
             <div className="footer-wrapper">
-              <span>The content on this website is crowdsourced. Help us spread awareness and reach a greater audience by sharing content and resources with us at contribute@speakupforpakminorities.com</span>
+              <span>The content on this website is crowdsourced. Help us spread awareness and reach a greater audience by sharing content and resources with us at <a className="emailLink" href="mailto: contribute@speakupforpakminorities.com">contribute@speakupforpakminorities.com</a></span>
             </div>
           </footer>
         </div>

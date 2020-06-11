@@ -137,6 +137,16 @@ body {
   font-size: 0.85rem;
 }
 
+.emailLink{
+  text-decoration: none;
+  color:white;
+  border-bottom: 1px black solid;
+}
+.emailLink:hover{
+  text-decoration: none;
+  color:white;
+}
+
 .backArrow{
   z-index: 2;
     width: 70px;
@@ -225,6 +235,7 @@ h5.cardName{
   height:350px
 }
 .book-title{
+  font-size:12.5px;
   line-height: 1.5rem;
 }
 
