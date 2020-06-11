@@ -109,9 +109,10 @@ body {
   text-align: left;
 }
 .hash-style{
-  color:rosybrown;
-  margin-bottom: 0.45rem;
+  color:rgb(141, 91, 91);
+  margin-bottom: 0;
   font-size: 0.75rem;
+  font-weight: 600;
 }
 .hovercard{
     display: block;  
@@ -168,21 +169,47 @@ body {
     font-weight: 700;
     letter-spacing: 1.05px;
 }
+
+
+
+.placard-style{
+    background-color: #f7f7f7; 
+    padding: 1.25rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.placard-style:hover{
+  background-color: linen;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 .placard-style > a{
   color:black;
   transition: 0.3s;
-  background-color: lightgrey;
+
 }
 
 h5.cardName{
   margin: 0;
   font-size: 1.05rem;
 }
+
 .placard-style > a:hover, .placard-style > a:focus{
   text-decoration: none;
-  color: black;
-  background-color: linen;
+  color: black; 
 }
+.cardBody{
+  flex: 1 1 auto;
+  min-height: 1px;
+}
+
 
 .book-rect{
   position: relative;
@@ -229,6 +256,20 @@ h5.cardName{
   vertical-align:middle;
 }
 
+/* .art-image-holder > img{
+  width: 50%;
+  height:auto;
+  object-fit: cover;
+} */
+.image-holder{
+  margin: 0 auto;
+  height:75%;
+}
+.image-holder > img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 @media only screen  and (max-width: 720px) {
   .hovercard{
     margin: 0px 45px 50px 45px;
@@ -269,8 +310,9 @@ h5.cardName{
     display: flex;
   }
   .image-holder > img{
-    width: 80% !important;
-  }
+    width: auto;
+    height: 85%;
+  } 
   .backArrow{
     width: 65px;
     font-size: 0.8rem;
@@ -344,8 +386,9 @@ h5.cardName{
     width: 220px;
     padding: 1rem 1.5rem;
   }
-  .image-holder > img{
-    width: 100% !important;
+  .image-holder{
+   height: 60%;
+   width: auto;
   }
   .backArrow{
     width: 45px;
@@ -384,18 +427,3 @@ h5.cardName{
   background-color: #f9f4ec;
 }
 
-.image-holder{
-  margin: 0 auto;
-}
-.image-holder > img{
-  width: 35%;
-  height:auto;
-  object-fit: cover;
-}
-
-
-.art-image-holder > img{
-  width: 50%;
-  height:auto;
-  object-fit: cover;
-}

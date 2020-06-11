@@ -2,7 +2,6 @@ import React from 'react';
 import AsiaBibi from './images/Asia-bibi-memoir.jpg';
 import Cornelius from './images/Alvin_robert_cornelius.jpg';
 import PunjabiExodus from './images/Punjab-exodus.jpg';
-import Tanzeela from './images/tanzeela-qambrani.jpg';
 import AsiaProtest from './images/asia-protests.jpg'
 import PunPartition from './images/migration-pic.jpg';
 import {Link} from "react-router-dom";
@@ -14,11 +13,10 @@ class Christian extends React.Component {
       return (
         <div>
           <div className="wrapper">
-            <div className="backArrow">
-              <Link to="/">
-                <img src={leftArrow} /> <span className="back-text">Go Back</span> 
-              </Link>
-            </div>
+          <div className="backArrow"> <Link to="/">
+            <span className="back-text">Back</span><img src={leftArrow} />  
+            </Link>
+          </div>
             <div className="instruction">
             <p className="inst-style">Instruction: Hover and click on the cards below to access the resources 👇🏻</p>
              </div>
@@ -30,7 +28,7 @@ class Christian extends React.Component {
                     <a href="https://www.chicagoreviewpress.com/blasphemy-products-9781613748893.php" rel="noopener noreferrer" target="_blank">
                       <p>Blasphemy - A Memoir: Sentenced to Death Over a Cup of Water</p>
                       <div className="image-holder">
-                        <img src={AsiaBibi} />
+                        <img src={AsiaBibi} alt="Blasphemy - A Memoir by Aasia Bibi"/>
                       </div>
                       </a>
                     </div>
@@ -43,7 +41,7 @@ class Christian extends React.Component {
                       <a href="https://thewire.in/religion/pakistan-punjabi-christians" rel="noopener noreferrer" target="_blank">
                       <p>Caste Away - The Ongoing Struggle of Pakistan’s Punjabi Christians</p>
                       <div className="art-image-holder">
-                        <img src={PunjabiExodus} />
+                        <img src={PunjabiExodus} alt="Ongoing Struccle of Pakistan's Punjabi Christians" />
                       </div>
                       <div style={{marginTop:"10px"}}><sup>Photo by Hania Ansari/Herald</sup></div>
                       </a>
@@ -62,7 +60,7 @@ class Christian extends React.Component {
 e-punjab-ii" rel="noopener noreferrer" target="_blank">
                         <p>When Christians were partitioned in the Punjab - II </p>
                         <div className="art-image-holder">
-                          <img src={Cornelius} />
+                          <img src={Cornelius} alt="Alvin Robert Cornelius" />
                         </div>
                         <div style={{marginTop:"10px"}}><sup>Photo included in The News</sup></div>
                       </a>
@@ -71,7 +69,7 @@ e-punjab-ii" rel="noopener noreferrer" target="_blank">
                       <a href="http://america.aljazeera.com/articles/2015/6/18/blasphemy-in-pakistan-the-case-of-aasia-bibi.html" rel="noopener noreferrer" target="_blank" >
                         <p>Blasphemy in Pakistan - The Case of Aasia Bibi</p>
                         <div className="art-image-holder">
-                          <img src={AsiaProtest} />
+                          <img src={AsiaProtest} alt="Blasphemy in Pakistan - The Case of Aasia Bibi" />
                         </div>
                         <div style={{marginTop:"10px"}}><sup>Photo owned by Al Jazeera</sup></div>
                       </a>

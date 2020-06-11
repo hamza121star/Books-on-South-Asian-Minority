@@ -15,8 +15,8 @@ class Siddi extends React.Component {
           <div>
             <div className="wrapper">
               <div className="backArrow"> <Link to="/">
-              <img src={leftArrow} /> <span className="back-text">Go Back</span> 
-              </Link>
+                <span className="back-text">Back</span><img src={leftArrow} />  
+                </Link>
               </div>
               <div className="instruction">
               <p className="inst-style">Instruction: Hover and click on the cards below to access the resources 👇🏻

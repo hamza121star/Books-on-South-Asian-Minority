@@ -31,117 +31,100 @@ class Main extends React.Component {
             </div>
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                  <p className="hash-style">#StopShiaGenocide</p>
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/shias">
-                  <Card.Body>
+                  <div className="cardBody">
                     <h5 className="cardName">Shi'as</h5>
-                  </Card.Body>
+                    <p className="hash-style">#StopShiaGenocide</p>
+                  </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                 
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/christians">
-                    <Card.Body className="cardBody">
+                    <div className="cardBody">
                       <h5 className="cardName">Christians</h5>
                       <p className="hash-style">#StopForcedConversions</p>
-                    </Card.Body>
+                    </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                  <p className="hash-style">#Siddi</p>
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/siddi">
-                  <Card.Body className="cardBody">
-                    <h5 className="cardName">Siddi</h5>
-                  </Card.Body>
+                    <div className="cardBody">
+                      <h5 className="cardName">Siddi</h5>
+                      <p className="hash-style">#Siddi</p>
+                    </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                  <p className="hash-style">#StopForcedConversions</p>
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/ahmadis">
-                    <Card.Body className="cardBody">
+                    <div className="cardBody">
                       <h5 className="cardName">Hindus</h5>
-                    </Card.Body>
+                      <p className="hash-style">#StopForcedConversions</p>
+                    </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
           </Row>
           <Row className="card-spacing">
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                  <p className="hash-style">#Sikhs</p>
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/sikhs">
-                    <Card.Body className="cardBody">
+                    <div className="cardBody">
                       <h5 className="cardName">Sikhs</h5>
-                    </Card.Body>
+                      <p className="hash-style">#Sikhs</p>
+                    </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                  <p className="hash-style">#Baluchis</p>
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/baluchis">
-                    <Card.Body className="cardBody">
+                    <div className="cardBody">
                       <h5 className="cardName">Baluchis</h5>
-                    </Card.Body>
+                      <p className="hash-style">#Baluchis</p>
+                    </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                  <p className="hash-style">#IStandWithAhmadis</p>
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/ahmadis">
-                    <Card.Body className="cardBody">
+                    <div className="cardBody">
                       <h5 className="cardName">Ahmadis</h5>
-                    </Card.Body>
+                      <p className="hash-style">#IStandWithAhmadis</p>
+                    </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
             <Col md={3}>
               <div className="card-wrapper">
-                <div className="hashtag-holder">
-                  <p className="hash-style">#Sindhis</p>
-                </div>
-                <Card className="placard-style">
+                <div className="placard-style">
                   <Link to="/ahmadis">
-                    <Card.Body className="cardBody">
+                    <div className="cardBody">
                       <h5 className="cardName">Sindhis</h5>
-                    </Card.Body>
+                      <p className="hash-style">#Sindhis</p>
+                    </div>
                   </Link>
-                </Card>
+                </div>
               </div>
             </Col>
           </Row>

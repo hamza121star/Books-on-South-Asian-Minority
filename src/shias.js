@@ -20,12 +20,12 @@ class Shias extends React.Component {
             </Link>
           </div>
           <div className="instruction">
-          <p className="inst-style">Instruction: Hover and click on the cards below to access the resources 👇🏻
+          <p className="inst-style">Instruction: Hover and click on the cards below to access the resources <span role="img">👇🏻</span>
           </p>
          </div>
           <div className="hovercard">
             <div className="section">
-              <h4 className="section-title">Books & Research Papers 📚</h4>
+              <h4 className="section-title">Books & Research Papers <span role="img">📚</span></h4>
               <div>
               <Row className="card-spacing">
                 <Col md={6}>
@@ -63,7 +63,7 @@ class Shias extends React.Component {
               </div>
             </div>
             <div className="section">
-              <h4 className="section-title">Articles 📰</h4>
+              <h4 className="section-title">Articles <span role="img">📰</span></h4>
               <div>
                 <div className="button-rect">
                 <a href="https://www.dawn.com/news/1504593" rel="noopener noreferrer" target="_blank">
