@@ -17,7 +17,7 @@ class Main extends React.Component {
             </div>
           </header>
           <Container className="spacing"> 
-          <Row className="spacing">
+          <Row className="card-spacing">
             <div className="mainTitle">
                 <h1 className="titleStyle">South Asian Minority Knowledge Base</h1>
             </div>
@@ -32,7 +32,7 @@ class Main extends React.Component {
             <Col md={3}>
               <div className="card-wrapper">
                 <div className="hashtag-holder">
-                  <p className="hash-style">#StopShiaKillings</p>
+                  <p className="hash-style">#StopShiaGenocide</p>
                 </div>
                 <Card className="placard-style">
                   <Link to="/shias">
@@ -46,12 +46,13 @@ class Main extends React.Component {
             <Col md={3}>
               <div className="card-wrapper">
                 <div className="hashtag-holder">
-                  <p className="hash-style">#StopForcedConversions</p>
+                 
                 </div>
                 <Card className="placard-style">
                   <Link to="/christians">
                     <Card.Body className="cardBody">
                       <h5 className="cardName">Christians</h5>
+                      <p className="hash-style">#StopForcedConversions</p>
                     </Card.Body>
                   </Link>
                 </Card>
@@ -86,7 +87,7 @@ class Main extends React.Component {
               </div>
             </Col>
           </Row>
-          <Row className="spacing">
+          <Row className="card-spacing">
             <Col md={3}>
               <div className="card-wrapper">
                 <div className="hashtag-holder">
@@ -118,7 +119,7 @@ class Main extends React.Component {
             <Col md={3}>
               <div className="card-wrapper">
                 <div className="hashtag-holder">
-                  <p className="hash-style">#AhmadisAreHumansToo</p>
+                  <p className="hash-style">#IStandWithAhmadis</p>
                 </div>
                 <Card className="placard-style">
                   <Link to="/ahmadis">
@@ -144,8 +145,12 @@ class Main extends React.Component {
               </div>
             </Col>
           </Row>
-
           </Container>
+          <footer>
+            <div className="footer-wrapper">
+              <span>The content on this website is crowdsourced. Help us spread awareness and reach a greater audience by sharing content and resources with us at contribute@speakupforpakminorities.com</span>
+            </div>
+          </footer>
         </div>
       );
     }
