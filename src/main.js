@@ -19,7 +19,7 @@ class Main extends React.Component {
           <Container className="spacing"> 
           <Row className="card-spacing">
             <div className="mainTitle">
-                <h1 className="titleStyle">South Asian Minority Knowledge Base</h1>
+                <h1 className="titleStyle"> Pakistan Minorities Knowledge Base </h1>
             </div>
             <div className="motto spacing">
                 <h5 className="mottoStyle">The South Asian community has passionately embraced the #blacklivesmatter movement across the world. 

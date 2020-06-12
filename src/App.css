@@ -267,8 +267,23 @@ h5.cardName{
   vertical-align:middle;
 }
 
+.article-title{
+  height: 3rem;
+}
+.mediaOwnership{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    margin: 10px auto;
+}
+
+.art-image-holder{
+  width:350px;
+  margin: 0 auto;
+}
 .art-image-holder > img{
-  width: 60%;
+  width: 80%;
   height:auto;
   object-fit: cover;
 }

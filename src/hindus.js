@@ -4,9 +4,7 @@ import Arundhati from './images/god-of-small-things.jpg';
 import Shiva from './images/in-search-shiva.jpg';
 import Shashi from './images/shashi-tharoor-book.jpg';
 import Hinglaj from './images/hinglaj-mata.jpg';
-import Tanzeela from './images/tanzeela-qambrani.jpg';
-import Hosh from './images/HoshMuhammad.jpg'
-import SidiFest from './images/sidi-troupe.jpg';
+import humanRightHindus from './images/hindu-human-rights.jpg';
 import leftArrow from './images/corner-down-left.svg';
 import {Link} from "react-router-dom";
 import Logo from './logo.svg';
@@ -75,34 +73,15 @@ class Hindus extends React.Component {
                       </a>
                     </div>
                     <div className="button-rect">
-                    <a href="https://qz.com/india/440978/meet-the-fast-disappearing-community-of-indians-and-pakistanis-of-african-origin/" rel="noopener noreferrer" target="_blank">
-                      <p>Meet the fast disappearing community of Indians and Pakistanis of African 
-                        origin
-                      </p>
+                      <a href="https://thewire.in/south-asia/in-balochistan-hindus-under-threat-in-the-face-of-state-indifference" rel="noopener noreferrer" target="_blank">
+                      <p>In Balochistan, Hindus Under Threat in the Face of State Indifference</p>
                       <div className="art-image-holder">
-                        <img src={SidiFest} />
+                        <img src={humanRightHindus} />
                       </div>
-                      <div style={{marginTop:"10px"}}><sup>Photo owned by Quartz India</sup></div>
+                      <div style={{marginTop:"10px"}}><sup>Photo owned by The Met Museum</sup></div>
                       </a>
                     </div>
-                    <div className="button-rect">
-                      <a href="http://www.theasian.asia/archives/86486" rel="noopener noreferrer" target="_blank">
-                        <p>African presence in Sindh</p>
-                        <div className="art-image-holder">
-                          <img src={Hosh} />
-                        </div>
-                        <div style={{marginTop:"10px"}}><sup>Photo owned by The AsiaN</sup></div>
-                      </a>
-                    </div>
-                    <div className="button-rect">
-                      <a href="https://thediplomat.com/2018/09/meet-the-first-african-pakistani-lawmaker/" rel="noopener noreferrer" target="_blank" >
-                        <p>Tanzeela Qambrani’s election as MP</p>
-                        <div className="art-image-holder">
-                          <img src={Tanzeela} />
-                        </div>
-                        <div style={{marginTop:"10px"}}><sup>Photo owned by Dawn News</sup></div>
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
