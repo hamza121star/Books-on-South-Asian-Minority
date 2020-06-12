@@ -118,7 +118,7 @@ class Main extends React.Component {
             <Col md={3}>
               <div className="card-wrapper">
                 <div className="placard-style">
-                  <Link to="/ahmadis">
+                  <Link to="/sindhis">
                     <div className="cardBody">
                       <h5 className="cardName">Sindhis</h5>
                       <p className="hash-style">#Sindhis</p>

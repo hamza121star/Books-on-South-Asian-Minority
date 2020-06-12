@@ -3,7 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import Arundhati from './images/god-of-small-things.jpg';
 import Shiva from './images/in-search-shiva.jpg';
 import Shashi from './images/shashi-tharoor-book.jpg';
-import Ikhlas from './images/ikhlas-khan.jpg';
+import Hinglaj from './images/hinglaj-mata.jpg';
 import Tanzeela from './images/tanzeela-qambrani.jpg';
 import Hosh from './images/HoshMuhammad.jpg'
 import SidiFest from './images/sidi-troupe.jpg';
@@ -69,7 +69,7 @@ class Hindus extends React.Component {
                       <a href="https://www.timesnownews.com/spiritual/religion/article/hinglaj-mata-mandir-do-you-know-about-this-shakti-peetha-in-pakistan/468324" rel="noopener noreferrer" target="_blank">
                       <p>Do you know about this Shakti Peetha in Pakistan?</p>
                       <div className="art-image-holder">
-                        <img src={Ikhlas} />
+                        <img src={Hinglaj} />
                       </div>
                       <div style={{marginTop:"10px"}}><sup>Photo owned by The Met Museum</sup></div>
                       </a>

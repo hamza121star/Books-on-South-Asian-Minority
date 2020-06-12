@@ -8,7 +8,7 @@ import leftArrow from './images/corner-down-left.svg';
 import {Link} from "react-router-dom";
 
 
-class Sikhs extends React.Component {
+class Sindhis extends React.Component {
     render() {
       return (
           <div>
@@ -71,4 +71,4 @@ class Sikhs extends React.Component {
     }
 }
 
-export default Sikhs;
+export default Sindhis;

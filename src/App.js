@@ -9,6 +9,7 @@ import Shias from './shias';
 import Ahmadi from './ahmadis';
 import Sikhs from './sikhs';
 import Hindus from './hindus';
+import Sindhis from './sindhis';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,7 @@ function App() {
         <Route path="/sikhs" component={Sikhs} />
         <Route path="/ahmadis" component={Ahmadi} />
         <Route path="/hindus" component={Hindus} />
+        <Route path="/sindhis" component={Sindhis} />
       </Switch>
     </Router>
     </div>
